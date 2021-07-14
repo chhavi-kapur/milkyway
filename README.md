@@ -1,6 +1,5 @@
-# Welcome Milkyways wiki
-Milkyway, an online dessert ordering platform that lets customers browse a wide-selection of Vancouver based bakeries while providing broad search categorisation and delivery services. Baked goods include but are not limited to customised cakes, pastries, cupcakes, donuts, pies and croissants.
-Our website would allow the user to browse through multiple online stores available on the platform, look up various items offered at those stores and then order the desired items to their chosen customerAddress at their chosen time.
+#Milkyway: Online dessert ordering platform using HTML5, CSS, Bootstrap, Java, Spring MVC Framework, Spring data JPA, Apache Maven, Thymeleaf, H2 database and Apache Tomcat.
+Milkyway, a website that lets customers browse a wide selection of Vancouver based bakeries while providing broad search categorization (search an item directly by name, by the shop’s name or by the categories- sweet or savoury or by the type of item- gluten-free, sugar-free, dairy-free or vegan.) It would allow the user to browse through multiple online stores available on the platform, look up various items offered at those stores and then order the desired items to their chosen customer address at their chosen time.
 
 # How to import the project
 ## Importing project in Eclipse or Spring Tool Suite
@@ -19,7 +18,7 @@ Our website would allow the user to browse through multiple online stores availa
 
 ### Cloning the Project
 * In the Git Repositories View click on clone a repository.
-* Paste "https://github.com/puneetpareenja/milkyways.git" (without the quotes) in the URI value in the location section.
+* Paste "https://github.com/chhavikapur/milkyway.git" (without the quotes) in the URI value in the location section.
 * In the Authentication section add your github username and password. 
 * You can check "Store in Secure Store" if you don't want to enter your username and password everytime you push or pull.
 * Click Next.
@@ -39,7 +38,7 @@ Our website would allow the user to browse through multiple online stores availa
 ## Importing project in IntelliJ Idea
 * Close previous project (if any).
 * On the startup screen select Checkout from Version Control and select Git
-* Add https://github.com/puneetpareenja/milkyways.git in the URL section and Choose the directory of your choice to import the project in. 
+* Add https://github.com/chhavikapur/milkyway.git in the URL section and Choose the directory of your choice to import the project in. 
 * Click Test to check if the link is working correctly.
 * Click on Clone.
 * In the Checkout from Version Control dialog click Yes to open the project. 
