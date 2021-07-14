@@ -1,5 +1,8 @@
-#Milkyway: Online dessert ordering platform using HTML5, CSS, Bootstrap, Java, Spring MVC Framework, Spring data JPA, Apache Maven, Thymeleaf, H2 database and Apache Tomcat.
+# Milkyway: Online dessert ordering platform <br>
+
 Milkyway, a website that lets customers browse a wide selection of Vancouver based bakeries while providing broad search categorization (search an item directly by name, by the shop’s name or by the categories- sweet or savoury or by the type of item- gluten-free, sugar-free, dairy-free or vegan.) It would allow the user to browse through multiple online stores available on the platform, look up various items offered at those stores and then order the desired items to their chosen customer address at their chosen time.
+
+Using HTML5, CSS, Bootstrap, Java, Spring MVC Framework, Spring data JPA, Apache Maven, Thymeleaf, H2 database and Apache Tomcat.<br>
 
 # How to import the project
 ## Importing project in Eclipse or Spring Tool Suite
