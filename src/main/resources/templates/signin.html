@@ -1,0 +1,57 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign In</title>
+    <link rel= "stylesheet" type = "text/css" href = "./css/formstyle.css" />
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./js/formscript.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="form">
+<br><br><br>
+        <div id="login">
+            <form action="/signin" method="post">
+                <div class="logo" align="center">
+                    <div class="site-logo">
+                        <a href="/home" class="js-logo-clone">Milkyway</a>
+                    </div>
+                </div>
+                <br><br>
+                <!--/*@thymesVar id="errorMessage" type=""*/-->
+                <p class="ui-state-error-text" th:text="${errorMessage}">Error Message</p>
+                <div class="field-wrap">
+                    <input type="email"required autocomplete="off" name="email" id="email" placeholder="Email*"/>
+                </div>
+
+                <div class="field-wrap">
+                    <input type="password"required autocomplete="off" name="password" id="password" placeholder="Password*"/>
+                </div>
+
+                <button class="btn btn-outline-primary btn-sm btn-block">Login</button>
+
+
+            </form>
+            <br>
+            <p class="forgot"><a href="/signup">New Customer? Sign up here!</a></p>
+        </div>
+</div> <!-- /form -->
+
+
+</body>
+</html>
