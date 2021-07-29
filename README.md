@@ -1,6 +1,6 @@
 # Milkyway: Online dessert ordering platform <br>
 
-![milkyway](https://im4.ezgif.com/tmp/ezgif-4-6ce7b56940f3.gif)
+![milkyway](https://user-images.githubusercontent.com/50983754/127579051-9182dc1f-58dd-4ea2-9b3d-c5b8d24d1f9d.gif)
 
 Milkyway, a website that lets customers browse a wide selection of Vancouver based bakeries while providing broad search categorization (search an item directly by name, by the shop’s name or by the categories- sweet or savoury or by the type of item- gluten-free, sugar-free, dairy-free or vegan.) It would allow the user to browse through multiple online stores available on the platform, look up various items offered at those stores and then order the desired items to their chosen customer address at their chosen time.
 
